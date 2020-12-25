@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  nginx:
+    image: inadvertance/baby-foot-camera
+    build: .
+    ports:
+      - "9500:1935"
+      - "10000:80"
